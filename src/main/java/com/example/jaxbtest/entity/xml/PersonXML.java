@@ -1,18 +1,21 @@
 package com.example.jaxbtest.entity.xml;
 
 import jakarta.xml.bind.annotation.XmlAttribute;
-import jakarta.xml.bind.annotation.XmlElement;
-import jakarta.xml.bind.annotation.XmlRootElement;
 import jakarta.xml.bind.annotation.XmlSchemaType;
 import jakarta.xml.bind.annotation.XmlType;
 
+@XmlType(name = "person")
 public class PersonXML {
+
     private String name;
+
     private int age;
+
     private String email;
+
     private String id;
 
-    @XmlElement(required = true)
+
     @XmlSchemaType(name = "string")
     public String getName() {
         return name;
@@ -22,8 +25,7 @@ public class PersonXML {
         this.name = name;
     }
 
-    @XmlElement(required = true)
-    @XmlSchemaType(name = "positiveInteger")
+    @XmlSchemaType(name = "int")
     public int getAge() {
         return age;
     }
@@ -32,7 +34,6 @@ public class PersonXML {
         this.age = age;
     }
 
-    @XmlElement(required = true)
     @XmlSchemaType(name = "string")
     public String getEmail() {
         return email;
@@ -43,6 +44,7 @@ public class PersonXML {
     }
 
     @XmlAttribute
+    @XmlSchemaType(name = "string")
     public String getId() {
         return id;
     }

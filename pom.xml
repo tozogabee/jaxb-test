@@ -99,15 +99,8 @@
                         <phase>generate-resources</phase>
                         <configuration>
                             <sources>
-                                <source>src/main/java/com/example/jaxbtest/xml</source>
-                                <source>src/main/java/com/example/jaxbtest/package-info.java</source>
+                                <source>src/main/java/com/example/jaxbtest/entity/xml</source>
                             </sources>
-                            <transformSchemas>
-                                <transformSchema>
-                                    <uri>https://www.example.it/schemas/packets</uri>
-                                    <toFile>person.xsd</toFile>
-                                </transformSchema>
-                            </transformSchemas>
                             <outputDirectory>src/main/resources/schemas</outputDirectory>
                         </configuration>
                     </execution>

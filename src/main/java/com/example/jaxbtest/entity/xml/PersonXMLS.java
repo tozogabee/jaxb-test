@@ -1,20 +1,23 @@
 package com.example.jaxbtest.entity.xml;
 
 import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlElementWrapper;
 import jakarta.xml.bind.annotation.XmlRootElement;
-import lombok.Getter;
 
 import java.util.List;
 
-@XmlRootElement
-@Getter
+@XmlRootElement(name = "people")
 public class PersonXMLS {
 
-    @XmlElement(name = "person")
-    List<PersonXML> person;
+
+    List<PersonXML> people;
 
     public void setPersonXMLS(List<PersonXML> personXMLS) {
-        this.person = personXMLS;
+        this.people = personXMLS;
     }
 
+    @XmlElement(name = "person")
+    public List<PersonXML> getPeople() {
+        return people;
+    }
 }
