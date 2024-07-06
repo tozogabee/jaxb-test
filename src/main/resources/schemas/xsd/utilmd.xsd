@@ -1,0 +1,1873 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- v7.2.1 2023.03.23.-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ACCESSREF">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ACCOUNT_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ACCOUNT_CODE_LIST">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ACCOUNT_CURRENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ACCOUNT_HOLDER_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ACCOUNT_HOLDER_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ACCOUNT_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ACCOUNT_NUMBER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ACTION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ACTION_REQUEST">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ACTION_REQUEST_INFORM">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="AGREE_TYPE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="AGREE_TYPE_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="AGREE_TYPE_CODE_LIST">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="AGREE_TYPE_DESCRIPTION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="AGREE_TYPE_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ARCKEY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ASSESSMENT_BASIS">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ASSOCCODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="BANK_BRANCH">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="BANK_BRANCH_PLACE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="BANK_CODE_LIST_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="BANK_CODE_LIST_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="BANK_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="BANK_NAME">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="BANK_RESP_AGENCY_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="BANK_RESP_AGENCY_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CALCULATION_SEQUENCE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CATEGORY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CATEGORY_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CATEGORY_CODE_LIST_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CHARACTERISTIC_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CHARACTERISTIC_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CHARACTERISTIC_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CHARACTERISTIC_VALUE_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CHARACTERISTIC_VALUE_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CHARACTERISTIC_VALUE_CODED">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CIMTYP">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CITY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_QUALIFIER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_QUALIFIER_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_QUALIFIER_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_QUALIFIER_3">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_QUALIFIER_4">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_QUALIFIER_5">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_RESPONSIBLE_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_RESPONSIBLE_AGENCY_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_RESPONSIBLE_AGENCY_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_RESPONSIBLE_AGENCY_3">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_RESPONSIBLE_AGENCY_4">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODE_LIST_RESPONSIBLE_AGENCY_5">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODELIST">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CODELISTAGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="COMMNUMBER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="COMMQUALF">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CONF_LEVEL">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CONTACTFUNC">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CONTACTID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CONTACTNAME">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CONTROLAGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="COUNTRY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CREDAT">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CRETIM">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CURRENCY_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="CURRENCY_QUALIFIER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DATUM">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DATUMQUALIFIER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DETAIL_AGENCY_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DETAIL_AGENCY_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DETAIL_CODE_LIST_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DETAIL_CODE_LIST_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DETAIL_RATE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DETAIL_RATE_BASIS">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DETAIL_RATE_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DIRECT">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DOCNUM">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DOCREL">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DOCUMENTFUNC">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DOCUMENTNUMBER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="DTF_FUNCTION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="E1VDEWAGR">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="AGREE_TYPE_ID" minOccurs="0" />
+                <xs:element ref="AGREE_TYPE_DESCRIPTION" minOccurs="0" />
+                <xs:element ref="AGREE_TYPE_CODE_LIST" minOccurs="0" />
+                <xs:element ref="AGREE_TYPE_AGENCY" minOccurs="0" />
+                <xs:element ref="AGREE_TYPE" minOccurs="0" />
+                <xs:element ref="SERVICE_LAYER" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWBGM_1">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="NAME" minOccurs="1" />
+                <xs:element ref="CODELIST" minOccurs="0" />
+                <xs:element ref="CODELISTAGENCY" minOccurs="0" />
+                <xs:element ref="FULLNAME" minOccurs="0" />
+                <xs:element ref="DOCUMENTNUMBER" minOccurs="0" />
+                <xs:element ref="VERSION" minOccurs="0" />
+                <xs:element ref="REVISION" minOccurs="0" />
+                <xs:element ref="DOCUMENTFUNC" minOccurs="0" />
+                <xs:element ref="RESPONSETYPE" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWCAV_3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="CHARACTERISTIC_VALUE_CODED" minOccurs="0" />
+                <xs:element ref="CODE_LIST_ID" minOccurs="0" />
+                <xs:element ref="AGENCY" minOccurs="0" />
+                <xs:element ref="CHARACTERISTIC_VALUE_1" minOccurs="0" />
+                <xs:element ref="CHARACTERISTIC_VALUE_2" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWCAV_4">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="CHARACTERISTIC_VALUE_CODED" minOccurs="0" />
+                <xs:element ref="CODE_LIST_ID" minOccurs="0" />
+                <xs:element ref="AGENCY" minOccurs="0" />
+                <xs:element ref="CHARACTERISTIC_VALUE_1" minOccurs="0" />
+                <xs:element ref="CHARACTERISTIC_VALUE_2" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWCCI_3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PROPERTY_CLASS" minOccurs="0" />
+                <xs:element ref="PROPERTY_MEASURE" minOccurs="0" />
+                <xs:element ref="MEASUREMENT_SIGNIFICANCE" minOccurs="0" />
+                <xs:element ref="MEASUREMENT_ATTRIBUTE_ID" minOccurs="0" />
+                <xs:element ref="MEASUREMENT_ATTRIBUTE" minOccurs="0" />
+                <xs:element ref="CHARACTERISTIC_ID" minOccurs="0" />
+                <xs:element ref="CODE_LIST_QUALIFIER" minOccurs="0" />
+                <xs:element ref="CODE_LIST_RESPONSIBLE_AGENCY" minOccurs="0" />
+                <xs:element ref="CHARACTERISTIC_1" minOccurs="0" />
+                <xs:element ref="CHARACTERISTIC_2" minOccurs="0" />
+                <xs:element ref="E1VDEWCAV_3" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWCCI_4">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PROPERTY_CLASS" minOccurs="0" />
+                <xs:element ref="PROPERTY_MEASURE" minOccurs="0" />
+                <xs:element ref="MEASUREMENT_SIGNIFICANCE" minOccurs="0" />
+                <xs:element ref="MEASUREMENT_ATTRIBUTE_ID" minOccurs="0" />
+                <xs:element ref="MEASUREMENT_ATTRIBUTE" minOccurs="0" />
+                <xs:element ref="CHARACTERISTIC_ID" minOccurs="0" />
+                <xs:element ref="CODE_LIST_QUALIFIER" minOccurs="0" />
+                <xs:element ref="CODE_LIST_RESPONSIBLE_AGENCY" minOccurs="0" />
+                <xs:element ref="CHARACTERISTIC_1" minOccurs="0" />
+                <xs:element ref="CHARACTERISTIC_2" minOccurs="0" />
+                <xs:element ref="E1VDEWCAV_4" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWCOM">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="COMMNUMBER" minOccurs="0" />
+                <xs:element ref="COMMQUALF" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWCOM_2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="COMMNUMBER" minOccurs="0" />
+                <xs:element ref="COMMQUALF" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWCTA">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="CONTACTFUNC" minOccurs="0" />
+                <xs:element ref="CONTACTID" minOccurs="0" />
+                <xs:element ref="CONTACTNAME" minOccurs="0" />
+                <xs:element ref="E1VDEWCOM" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWCTA_2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="CONTACTFUNC" minOccurs="0" />
+                <xs:element ref="CONTACTID" minOccurs="0" />
+                <xs:element ref="CONTACTNAME" minOccurs="0" />
+                <xs:element ref="E1VDEWCOM_2" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWDTM">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="DATUMQUALIFIER" minOccurs="1" />
+                <xs:element ref="DATUM" minOccurs="1" />
+                <xs:element ref="FORMAT" minOccurs="1" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWDTM_2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="DATUMQUALIFIER" minOccurs="0" />
+                <xs:element ref="DATUM" minOccurs="0" />
+                <xs:element ref="FORMAT" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWDTM_3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="DATUMQUALIFIER" minOccurs="0" />
+                <xs:element ref="DATUM" minOccurs="0" />
+                <xs:element ref="FORMAT" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWDTM_4">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="DATUMQUALIFIER" minOccurs="0" />
+                <xs:element ref="DATUM" minOccurs="0" />
+                <xs:element ref="FORMAT" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWDTM_6">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="DATUMQUALIFIER" minOccurs="0" />
+                <xs:element ref="DATUM" minOccurs="0" />
+                <xs:element ref="FORMAT" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWFII_3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PARTY_ID" minOccurs="0" />
+                <xs:element ref="ACCOUNT_NUMBER" minOccurs="0" />
+                <xs:element ref="ACCOUNT_HOLDER_1" minOccurs="0" />
+                <xs:element ref="ACCOUNT_HOLDER_2" minOccurs="0" />
+                <xs:element ref="ACCOUNT_CURRENCY" minOccurs="0" />
+                <xs:element ref="BANK_ID" minOccurs="0" />
+                <xs:element ref="BANK_CODE_LIST_1" minOccurs="0" />
+                <xs:element ref="BANK_RESP_AGENCY_1" minOccurs="0" />
+                <xs:element ref="BANK_BRANCH" minOccurs="0" />
+                <xs:element ref="BANK_CODE_LIST_2" minOccurs="0" />
+                <xs:element ref="BANK_RESP_AGENCY_2" minOccurs="0" />
+                <xs:element ref="BANK_NAME" minOccurs="0" />
+                <xs:element ref="BANK_BRANCH_PLACE" minOccurs="0" />
+                <xs:element ref="COUNTRY" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWFII_4">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PARTY_ID" minOccurs="0" />
+                <xs:element ref="ACCOUNT_NUMBER" minOccurs="0" />
+                <xs:element ref="ACCOUNT_HOLDER_1" minOccurs="0" />
+                <xs:element ref="ACCOUNT_HOLDER_2" minOccurs="0" />
+                <xs:element ref="ACCOUNT_CURRENCY" minOccurs="0" />
+                <xs:element ref="BANK_ID" minOccurs="0" />
+                <xs:element ref="BANK_CODE_LIST_1" minOccurs="0" />
+                <xs:element ref="BANK_RESP_AGENCY_1" minOccurs="0" />
+                <xs:element ref="BANK_BRANCH" minOccurs="0" />
+                <xs:element ref="BANK_CODE_LIST_2" minOccurs="0" />
+                <xs:element ref="BANK_RESP_AGENCY_2" minOccurs="0" />
+                <xs:element ref="BANK_NAME" minOccurs="0" />
+                <xs:element ref="BANK_BRANCH_PLACE" minOccurs="0" />
+                <xs:element ref="COUNTRY" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWFTX_2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="TEXT_SUBJECT_QUALIFIER" minOccurs="0" />
+                <xs:element ref="TEXT_FUNCTION_CODE" minOccurs="0" />
+                <xs:element ref="FREE_TEXT_CODE" minOccurs="0" />
+                <xs:element ref="CODE_LIST_QUALIFIER" minOccurs="0" />
+                <xs:element ref="CODE_LIST_RESPONSIBLE_AGENCY" minOccurs="0" />
+                <xs:element ref="FREE_TEXT_1" minOccurs="0" />
+                <xs:element ref="FREE_TEXT_2" minOccurs="0" />
+                <xs:element ref="FREE_TEXT_3" minOccurs="0" />
+                <xs:element ref="FREE_TEXT_4" minOccurs="0" />
+                <xs:element ref="FREE_TEXT_5" minOccurs="0" />
+                <xs:element ref="LANGUAGE" minOccurs="0" />
+                <xs:element ref="TEXT_FORMAT" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWIDE_2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="OBJECT_TYPE" minOccurs="0" />
+                <xs:element ref="ID_NUMBER" minOccurs="0" />
+                <xs:element ref="ID_CODE" minOccurs="0" />
+                <xs:element ref="ID_STATUS" minOccurs="0" />
+                <xs:element ref="PARTY_ID" minOccurs="0" />
+                <xs:element ref="PARTY_ID_CODE" minOccurs="0" />
+                <xs:element ref="PARTY_AGENCY" minOccurs="0" />
+                <xs:element ref="STATUS_DESCR" minOccurs="0" />
+                <xs:element ref="CONF_LEVEL" minOccurs="0" />
+                <xs:element ref="POS_HIERARCHI" minOccurs="0" />
+                <xs:element ref="POS_SEQUENCE_NR" minOccurs="0" />
+                <xs:element ref="PRODUCT_DESCR" minOccurs="0" />
+                <xs:element ref="PRODUCT_ID" minOccurs="0" />
+                <xs:element ref="PRODUCT_AGENCY" minOccurs="0" />
+                <xs:element ref="PRODUCT_CHARACTERISTIC_1" minOccurs="0" />
+                <xs:element ref="PRODUCT_CHARACTERISTIC_2" minOccurs="0" />
+                <xs:element ref="E1VDEWLOC_3" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWDTM_3" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWSTS_2" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWTAX_3" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWFTX_2" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWAGR" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWINP" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWRFF_2" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWCCI_3" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWSEQ_2" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWMOA_6" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWNAD_4" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWINP">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="INSTRUC_PARTICIPANT_SEND_ID" minOccurs="0" />
+                <xs:element ref="INSTRUC_PARTICIPANT_RECEIVE_ID" minOccurs="0" />
+                <xs:element ref="INSTRUCTION_ID" minOccurs="0" />
+                <xs:element ref="INSTRUCTION_CODE" minOccurs="0" />
+                <xs:element ref="INSTRUCTION_CODE_LIST" minOccurs="0" />
+                <xs:element ref="INSTRUCTION_CODE_AGENCY" minOccurs="0" />
+                <xs:element ref="INSTRUCTION" minOccurs="0" />
+                <xs:element ref="INSTRUCTION_STATUS" minOccurs="0" />
+                <xs:element ref="NAME_PARTICIPANT" minOccurs="0" />
+                <xs:element ref="ACTION_REQUEST_INFORM" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWLOC_3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PLACE_QUALIFIER" minOccurs="0" />
+                <xs:element ref="PLACE_ID" minOccurs="0" />
+                <xs:element ref="CODE_LIST_QUALIFIER_1" minOccurs="0" />
+                <xs:element ref="CODE_LIST_RESPONSIBLE_AGENCY_1" minOccurs="0" />
+                <xs:element ref="PLACE" minOccurs="1" />
+                <xs:element ref="RELATED_PLACE_COMPANY_1" minOccurs="0" />
+                <xs:element ref="CODE_LIST_QUALIFIER_2" minOccurs="0" />
+                <xs:element ref="CODE_LIST_RESPONSIBLE_AGENCY_2" minOccurs="0" />
+                <xs:element ref="RELATED_PLACE_AREA_1" minOccurs="0" />
+                <xs:element ref="RELATED_PLACE_COMPANY_2" minOccurs="0" />
+                <xs:element ref="CODE_LIST_QUALIFIER_3" minOccurs="0" />
+                <xs:element ref="CODE_LIST_RESPONSIBLE_AGENCY_3" minOccurs="0" />
+                <xs:element ref="RELATED_PLACE_AREA_2" minOccurs="0" />
+                <xs:element ref="RELATION_CODE" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWMOA_6">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="MONETARY_AMOUNT_TYPE" minOccurs="0" />
+                <xs:element ref="MONETARY_AMOUNT_VALUE" minOccurs="0" />
+                <xs:element ref="CURRENCY_ID" minOccurs="0" />
+                <xs:element ref="CURRENCY_QUALIFIER" minOccurs="0" />
+                <xs:element ref="STATUS" minOccurs="0" />
+                <xs:element ref="E1VDEWRFF_3" minOccurs="0" />
+                <xs:element ref="E1VDEWDTM_6" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWNAD_1">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ACTION" minOccurs="1" />
+                <xs:element ref="PARTNER" minOccurs="1" />
+                <xs:element ref="CODELIST" minOccurs="0" />
+                <xs:element ref="CODELISTAGENCY" minOccurs="0" />
+                <xs:element ref="NAMEADDRESS1" minOccurs="0" />
+                <xs:element ref="NAMEADDRESS2" minOccurs="0" />
+                <xs:element ref="NAMEADDRESS3" minOccurs="0" />
+                <xs:element ref="NAMEADDRESS4" minOccurs="0" />
+                <xs:element ref="NAMEADDRESS5" minOccurs="0" />
+                <xs:element ref="PARTNERNAME1" minOccurs="0" />
+                <xs:element ref="PARTNERNAME2" minOccurs="0" />
+                <xs:element ref="PARTNERNAME3" minOccurs="0" />
+                <xs:element ref="PARTNERNAME4" minOccurs="0" />
+                <xs:element ref="PARTNERNAME5" minOccurs="0" />
+                <xs:element ref="PARTNERFORMAT" minOccurs="0" />
+                <xs:element ref="STREET1" minOccurs="0" />
+                <xs:element ref="STREET2" minOccurs="0" />
+                <xs:element ref="STREET3" minOccurs="0" />
+                <xs:element ref="STREET4" minOccurs="0" />
+                <xs:element ref="CITY" minOccurs="0" />
+                <xs:element ref="REGION" minOccurs="0" />
+                <xs:element ref="ZIPCODE" minOccurs="0" />
+                <xs:element ref="COUNTRY" minOccurs="0" />
+                <xs:element ref="E1VDEWFII_3" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWCTA" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWNAD_4">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ACTION" minOccurs="0" />
+                <xs:element ref="PARTNER" minOccurs="0" />
+                <xs:element ref="CODELIST" minOccurs="0" />
+                <xs:element ref="CODELISTAGENCY" minOccurs="0" />
+                <xs:element ref="NAMEADDRESS1" minOccurs="0" />
+                <xs:element ref="NAMEADDRESS2" minOccurs="0" />
+                <xs:element ref="NAMEADDRESS3" minOccurs="0" />
+                <xs:element ref="NAMEADDRESS4" minOccurs="0" />
+                <xs:element ref="NAMEADDRESS5" minOccurs="0" />
+                <xs:element ref="PARTNERNAME1" minOccurs="0" />
+                <xs:element ref="PARTNERNAME2" minOccurs="0" />
+                <xs:element ref="PARTNERNAME3" minOccurs="0" />
+                <xs:element ref="PARTNERNAME4" minOccurs="0" />
+                <xs:element ref="PARTNERNAME5" minOccurs="0" />
+                <xs:element ref="PARTNERFORMAT" minOccurs="0" />
+                <xs:element ref="STREET1" minOccurs="0" />
+                <xs:element ref="STREET2" minOccurs="0" />
+                <xs:element ref="STREET3" minOccurs="0" />
+                <xs:element ref="STREET4" minOccurs="0" />
+                <xs:element ref="CITY" minOccurs="0" />
+                <xs:element ref="REGION" minOccurs="0" />
+                <xs:element ref="ZIPCODE" minOccurs="0" />
+                <xs:element ref="COUNTRY" minOccurs="0" />
+                <xs:element ref="E1VDEWRFF_4" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWFII_4" minOccurs="0" />
+                <xs:element ref="E1VDEWCTA_2" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWPIA_2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="PRODUCT_ID" minOccurs="0" />
+                <xs:element ref="ITEM_NUMBER_1" minOccurs="0" />
+                <xs:element ref="ITEM_NUMBER_TYPE_1" minOccurs="0" />
+                <xs:element ref="CODE_LIST_QUALIFIER_1" minOccurs="0" />
+                <xs:element ref="CODE_LIST_RESPONSIBLE_AGENCY_1" minOccurs="0" />
+                <xs:element ref="ITEM_NUMBER_2" minOccurs="0" />
+                <xs:element ref="ITEM_NUMBER_TYPE_2" minOccurs="0" />
+                <xs:element ref="CODE_LIST_QUALIFIER_2" minOccurs="0" />
+                <xs:element ref="CODE_LIST_RESPONSIBLE_AGENCY_2" minOccurs="0" />
+                <xs:element ref="ITEM_NUMBER_3" minOccurs="0" />
+                <xs:element ref="ITEM_NUMBER_TYPE_3" minOccurs="0" />
+                <xs:element ref="CODE_LIST_QUALIFIER_3" minOccurs="0" />
+                <xs:element ref="CODE_LIST_RESPONSIBLE_AGENCY_3" minOccurs="0" />
+                <xs:element ref="ITEM_NUMBER_4" minOccurs="0" />
+                <xs:element ref="ITEM_NUMBER_TYPE_4" minOccurs="0" />
+                <xs:element ref="CODE_LIST_QUALIFIER_4" minOccurs="0" />
+                <xs:element ref="CODE_LIST_RESPONSIBLE_AGENCY_4" minOccurs="0" />
+                <xs:element ref="ITEM_NUMBER_5" minOccurs="0" />
+                <xs:element ref="ITEM_NUMBER_TYPE_5" minOccurs="0" />
+                <xs:element ref="CODE_LIST_QUALIFIER_5" minOccurs="0" />
+                <xs:element ref="CODE_LIST_RESPONSIBLE_AGENCY_5" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWQTY">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="QUANTITY_QUALIFIER" minOccurs="0" />
+                <xs:element ref="QUANTITY" minOccurs="0" />
+                <xs:element ref="MEASURE_UNIT_QUALIFIER" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWRFF_1">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="REFERENCEQUALIFIER" minOccurs="0" />
+                <xs:element ref="REFERENCENUMBER" minOccurs="0" />
+                <xs:element ref="LINENUMBER" minOccurs="0" />
+                <xs:element ref="VERSIONNUMBER" minOccurs="0" />
+                <xs:element ref="REVISION" minOccurs="0" />
+                <xs:element ref="E1VDEWDTM_2" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWRFF_2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="REFERENCEQUALIFIER" minOccurs="0" />
+                <xs:element ref="REFERENCENUMBER" minOccurs="0" />
+                <xs:element ref="LINENUMBER" minOccurs="0" />
+                <xs:element ref="VERSIONNUMBER" minOccurs="0" />
+                <xs:element ref="REVISION" minOccurs="0" />
+                <xs:element ref="E1VDEWDTM_4" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWRFF_3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="REFERENCEQUALIFIER" minOccurs="0" />
+                <xs:element ref="REFERENCENUMBER" minOccurs="0" />
+                <xs:element ref="LINENUMBER" minOccurs="0" />
+                <xs:element ref="VERSIONNUMBER" minOccurs="0" />
+                <xs:element ref="REVISION" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWRFF_4">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="REFERENCEQUALIFIER" minOccurs="0" />
+                <xs:element ref="REFERENCENUMBER" minOccurs="0" />
+                <xs:element ref="LINENUMBER" minOccurs="0" />
+                <xs:element ref="VERSIONNUMBER" minOccurs="0" />
+                <xs:element ref="REVISION" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWSEQ_2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ACTION_REQUEST" minOccurs="0" />
+                <xs:element ref="SEQU_INFOS_SEQUENCENR" minOccurs="0" />
+                <xs:element ref="SEQU_INFOS_SEQUENCENR_CODE" minOccurs="0" />
+                <xs:element ref="SEQU_INFOS_CODE_LIST" minOccurs="0" />
+                <xs:element ref="SEQU_INFOS_AGENCY" minOccurs="0" />
+                <xs:element ref="E1VDEWPIA_2" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWQTY" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWCCI_4" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWSTS_2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="CATEGORY" minOccurs="1" />
+                <xs:element ref="CATEGORY_CODE_LIST_ID" minOccurs="0" />
+                <xs:element ref="CATEGORY_AGENCY" minOccurs="0" />
+                <xs:element ref="STATUS_DESCRIPTION_CODE" minOccurs="0" />
+                <xs:element ref="STATUS_CODE_LIST_ID" minOccurs="0" />
+                <xs:element ref="STATUS_AGENCY" minOccurs="0" />
+                <xs:element ref="STATUS_DESCRIPTION" minOccurs="0" />
+                <xs:element ref="REASON_1_DESCRIPTION_CODE" minOccurs="1" />
+                <xs:element ref="REASON_1_CODE_LIST_ID" minOccurs="0" />
+                <xs:element ref="REASON_1_AGENCY" minOccurs="0" />
+                <xs:element ref="REASON_1_DESCRIPTION" minOccurs="0" />
+                <xs:element ref="REASON_2_DESCRIPTION_CODE" minOccurs="0" />
+                <xs:element ref="REASON_2_CODE_LIST_ID" minOccurs="0" />
+                <xs:element ref="REASON_2_AGENCY" minOccurs="0" />
+                <xs:element ref="REASON_2_DESCRIPTION" minOccurs="0" />
+                <xs:element ref="REASON_3_DESCRIPTION_CODE" minOccurs="0" />
+                <xs:element ref="REASON_3_CODE_LIST_ID" minOccurs="0" />
+                <xs:element ref="REASON_3_AGENCY" minOccurs="0" />
+                <xs:element ref="REASON_3_DESCRIPTION" minOccurs="0" />
+                <xs:element ref="REASON_4_DESCRIPTION_CODE" minOccurs="0" />
+                <xs:element ref="REASON_4_CODE_LIST_ID" minOccurs="0" />
+                <xs:element ref="REASON_4_AGENCY" minOccurs="0" />
+                <xs:element ref="REASON_4_DESCRIPTION" minOccurs="0" />
+                <xs:element ref="REASON_5_DESCRIPTION_CODE" minOccurs="0" />
+                <xs:element ref="REASON_5_CODE_LIST_ID" minOccurs="0" />
+                <xs:element ref="REASON_5_AGENCY" minOccurs="0" />
+                <xs:element ref="REASON_5_DESCRIPTION" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWTAX_3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="DTF_FUNCTION" minOccurs="0" />
+                <xs:element ref="TYPE_CODED" minOccurs="0" />
+                <xs:element ref="TYPE_CODE_LIST" minOccurs="0" />
+                <xs:element ref="TYPE_AGENCY" minOccurs="0" />
+                <xs:element ref="TYPE" minOccurs="0" />
+                <xs:element ref="ACCOUNT_ID" minOccurs="0" />
+                <xs:element ref="ACCOUNT_CODE_LIST" minOccurs="0" />
+                <xs:element ref="ACCOUNT_AGENCY" minOccurs="0" />
+                <xs:element ref="ASSESSMENT_BASIS" minOccurs="0" />
+                <xs:element ref="DETAIL_RATE_ID" minOccurs="0" />
+                <xs:element ref="DETAIL_CODE_LIST_1" minOccurs="0" />
+                <xs:element ref="DETAIL_AGENCY_1" minOccurs="0" />
+                <xs:element ref="DETAIL_RATE" minOccurs="0" />
+                <xs:element ref="DETAIL_RATE_BASIS" minOccurs="0" />
+                <xs:element ref="DETAIL_CODE_LIST_2" minOccurs="0" />
+                <xs:element ref="DETAIL_AGENCY_2" minOccurs="0" />
+                <xs:element ref="CATEGORY" minOccurs="0" />
+                <xs:element ref="PARTY_TAX_ID" minOccurs="0" />
+                <xs:element ref="CALCULATION_SEQUENCE" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWUNH">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="REFERENCENUMBER" minOccurs="1" />
+                <xs:element ref="IDENTIFIER" minOccurs="1" />
+                <xs:element ref="VERSIONNUMBER" minOccurs="0" />
+                <xs:element ref="RELEASENUMBER" minOccurs="0" />
+                <xs:element ref="CONTROLAGENCY" minOccurs="0" />
+                <xs:element ref="ASSOCCODE" minOccurs="0" />
+                <xs:element ref="ACCESSREF" minOccurs="0" />
+                <xs:element ref="TRANSFERNUMBER" minOccurs="0" />
+                <xs:element ref="INDICATOR" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="E1VDEWUNT">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="NUMSEG" minOccurs="0" />
+                <xs:element ref="REFNUM" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="EDI_DC40">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="TABNAM" />
+                <xs:element ref="MANDT" minOccurs="0" />
+                <xs:element ref="DOCNUM" minOccurs="0" />
+                <xs:element ref="DOCREL" minOccurs="0" />
+                <xs:element ref="STATUS" minOccurs="0" />
+                <xs:element ref="DIRECT" />
+                <xs:element ref="OUTMOD" minOccurs="0" />
+                <xs:element ref="EXPRSS" minOccurs="0" />
+                <xs:element ref="TEST" minOccurs="0" />
+                <xs:element ref="IDOCTYP" />
+                <xs:element ref="CIMTYP" minOccurs="0" />
+                <xs:element ref="MESTYP" />
+                <xs:element ref="MESCOD" minOccurs="0" />
+                <xs:element ref="MESFCT" minOccurs="0" />
+                <xs:element ref="STD" minOccurs="0" />
+                <xs:element ref="STDVRS" minOccurs="0" />
+                <xs:element ref="STDMES" minOccurs="0" />
+                <xs:element ref="SNDPOR" />
+                <xs:element ref="SNDPRT" />
+                <xs:element ref="SNDPFC" minOccurs="0" />
+                <xs:element ref="SNDPRN" />
+                <xs:element ref="SNDSAD" minOccurs="0" />
+                <xs:element ref="SNDLAD" minOccurs="0" />
+                <xs:element ref="RCVPOR" />
+                <xs:element ref="RCVPRT" />
+                <xs:element ref="RCVPFC" minOccurs="0" />
+                <xs:element ref="RCVPRN" />
+                <xs:element ref="RCVSAD" minOccurs="0" />
+                <xs:element ref="RCVLAD" minOccurs="0" />
+                <xs:element ref="CREDAT" minOccurs="0" />
+                <xs:element ref="CRETIM" minOccurs="0" />
+                <xs:element ref="REFINT" minOccurs="0" />
+                <xs:element ref="REFGRP" minOccurs="0" />
+                <xs:element ref="REFMES" minOccurs="0" />
+                <xs:element ref="ARCKEY" minOccurs="0" />
+                <xs:element ref="SERIAL" minOccurs="0" />
+            </xs:sequence>
+            <xs:attribute name="SEGMENT" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="EXPRSS">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="FORMAT">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="FREE_TEXT_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="FREE_TEXT_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="FREE_TEXT_3">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="FREE_TEXT_4">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="FREE_TEXT_5">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="FREE_TEXT_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="FULLNAME">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ID_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ID_NUMBER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ID_STATUS">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="IDENTIFIER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="IDOC">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="EDI_DC40" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element ref="E1VDEWUNH" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="E1VDEWBGM_1" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="E1VDEWDTM" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWRFF_1" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWNAD_1" minOccurs="2" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWIDE_2" minOccurs="1" maxOccurs="unbounded" />
+                <xs:element ref="E1VDEWUNT" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="BEGIN" use="optional">
+                <xs:simpleType>
+                    <xs:restriction base="xs:NMTOKEN">
+                        <xs:enumeration value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="IDOCTYP">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="INDICATOR">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="INSTRUC_PARTICIPANT_RECEIVE_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="INSTRUC_PARTICIPANT_SEND_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="INSTRUCTION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="INSTRUCTION_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="INSTRUCTION_CODE_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="INSTRUCTION_CODE_LIST">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="INSTRUCTION_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="INSTRUCTION_STATUS">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ISU_VDEW_UTILMD_V30">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="IDOC" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ITEM_NUMBER_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ITEM_NUMBER_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ITEM_NUMBER_3">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ITEM_NUMBER_4">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ITEM_NUMBER_5">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ITEM_NUMBER_TYPE_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ITEM_NUMBER_TYPE_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ITEM_NUMBER_TYPE_3">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ITEM_NUMBER_TYPE_4">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ITEM_NUMBER_TYPE_5">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="LANGUAGE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="LINENUMBER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="MANDT">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="MEASURE_UNIT_QUALIFIER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="MEASUREMENT_ATTRIBUTE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="MEASUREMENT_ATTRIBUTE_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="MEASUREMENT_SIGNIFICANCE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="MESCOD">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="MESFCT">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="MESTYP">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="MONETARY_AMOUNT_TYPE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="MONETARY_AMOUNT_VALUE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="NAME">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="NAME_PARTICIPANT">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="NAMEADDRESS1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="NAMEADDRESS2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="NAMEADDRESS3">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="NAMEADDRESS4">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="NAMEADDRESS5">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="NUMSEG">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="OBJECT_TYPE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="OUTMOD">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PARTNER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PARTNERFORMAT">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PARTNERNAME1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PARTNERNAME2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PARTNERNAME3">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PARTNERNAME4">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PARTNERNAME5">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PARTY_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PARTY_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PARTY_ID_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PARTY_TAX_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PLACE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PLACE_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PLACE_QUALIFIER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="POS_HIERARCHI">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="POS_SEQUENCE_NR">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PRODUCT_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PRODUCT_CHARACTERISTIC_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PRODUCT_CHARACTERISTIC_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PRODUCT_DESCR">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PRODUCT_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PROPERTY_CLASS">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="PROPERTY_MEASURE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="QUANTITY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="QUANTITY_QUALIFIER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RCVLAD">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RCVPFC">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RCVPOR">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RCVPRN">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RCVPRT">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RCVSAD">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_1_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_1_CODE_LIST_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_1_DESCRIPTION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_1_DESCRIPTION_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_2_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_2_CODE_LIST_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_2_DESCRIPTION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_2_DESCRIPTION_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_3_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_3_CODE_LIST_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_3_DESCRIPTION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_3_DESCRIPTION_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_4_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_4_CODE_LIST_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_4_DESCRIPTION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_4_DESCRIPTION_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_5_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_5_CODE_LIST_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_5_DESCRIPTION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REASON_5_DESCRIPTION_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REFERENCENUMBER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REFERENCEQUALIFIER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REFGRP">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REFINT">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REFMES">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REFNUM">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REGION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RELATED_PLACE_AREA_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RELATED_PLACE_AREA_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RELATED_PLACE_COMPANY_1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RELATED_PLACE_COMPANY_2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RELATION_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RELEASENUMBER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="RESPONSETYPE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="REVISION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SEQU_INFOS_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SEQU_INFOS_CODE_LIST">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SEQU_INFOS_SEQUENCENR">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SEQU_INFOS_SEQUENCENR_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SERIAL">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SERVICE_LAYER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SNDLAD">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SNDPFC">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SNDPOR">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SNDPRN">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SNDPRT">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="SNDSAD">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STATUS">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STATUS_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STATUS_CODE_LIST_ID">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STATUS_DESCR">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STATUS_DESCRIPTION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STATUS_DESCRIPTION_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STD">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STDMES">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STDVRS">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STREET1">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STREET2">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STREET3">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="STREET4">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="TABNAM">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="TEST">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="TEXT_FORMAT">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="TEXT_FUNCTION_CODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="TEXT_SUBJECT_QUALIFIER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="TRANSFERNUMBER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="TYPE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="TYPE_AGENCY">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="TYPE_CODE_LIST">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="TYPE_CODED">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="VERSION">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="VERSIONNUMBER">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+    <xs:element name="ZIPCODE">
+        <xs:complexType mixed="true" />
+    </xs:element>
+
+</xs:schema>
