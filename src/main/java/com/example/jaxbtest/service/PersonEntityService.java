@@ -2,8 +2,8 @@ package com.example.jaxbtest.service;
 
 import com.example.jaxbtest.entity.model.PersonEntity;
 import com.example.jaxbtest.entity.repository.PersonRepository;
-import com.example.jaxbtest.entity.xml.PersonXML;
-import com.example.jaxbtest.entity.xml.PersonXMLS;
+import com.example.jaxbtest.entity.xml.pojo.person.PersonXML;
+import com.example.jaxbtest.entity.xml.pojo.person.PersonXMLS;
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
@@ -25,7 +25,7 @@ public class PersonEntityService {
         return this.personRepository.findAll();
     }
 
-    public void marshalling() throws JAXBException {
+    public void marshallingPOJOToXSD() throws JAXBException {
         List<PersonEntity> personEntities = this.getAllPeople();
         List<PersonXML> result = new ArrayList<>();
         PersonXMLS personXMLS = new PersonXMLS();

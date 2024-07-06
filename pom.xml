@@ -99,11 +99,25 @@
                         <phase>generate-resources</phase>
                         <configuration>
                             <sources>
-                                <source>src/main/java/com/example/jaxbtest/entity/xml</source>
+                                <source>src/main/java/com/example/jaxbtest/entity/xml/pojo/person</source>
                             </sources>
-                            <outputDirectory>src/main/resources/schemas</outputDirectory>
+                            <outputDirectory>src/main/resources/schemas/generated-xsd</outputDirectory>
                         </configuration>
                     </execution>
+                    <!--<execution>
+                        <id>xjc</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                        <phase>generate-resources</phase>
+                        <configuration>
+                            <sources>
+                                <source>src/main/resources/schemas/xsd/utilmd.xsd</source>
+                            </sources>
+                            <outputDirectory>src/main/java/com/example/jaxbtest/entity/xml/generated</outputDirectory>
+                            <packageName>com.example.jaxbtest.entity.xml.generated</packageName>
+                        </configuration>
+                    </execution>-->
                 </executions>
             </plugin>
 

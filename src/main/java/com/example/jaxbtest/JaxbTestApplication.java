@@ -1,7 +1,6 @@
 package com.example.jaxbtest;
 
 import com.example.jaxbtest.service.PersonEntityService;
-import jakarta.xml.bind.annotation.XmlTransient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -19,6 +18,6 @@ public class JaxbTestApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        personEntityService.marshalling();
+        personEntityService.marshallingPOJOToXSD();
     }
 }
